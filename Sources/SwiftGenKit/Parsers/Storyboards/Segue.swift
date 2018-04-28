@@ -10,6 +10,7 @@ import Kanna
 extension Storyboards {
   struct Segue {
     let identifier: String
+    let kind: String
     let customClass: String?
     let customModule: String?
     let destination: String
@@ -39,6 +40,7 @@ extension Storyboards {
 
 private enum XML {
   static let identifierAttribute = "identifier"
+  static let kindAttribute = "kind"
   static let customClassAttribute = "customClass"
   static let customModuleAttribute = "customModule"
   static let destinationAttribute = "destination"
@@ -47,6 +49,7 @@ private enum XML {
 extension Storyboards.Segue {
   init(with object: Kanna.XMLElement, platform: Storyboards.Platform) {
     identifier = object[XML.identifierAttribute] ?? ""
+    kind = object[XML.kindAttribute] ?? ""
     customClass = object[XML.customClassAttribute]
     customModule = object[XML.customModuleAttribute]
     destination = object[XML.destinationAttribute] ?? ""
