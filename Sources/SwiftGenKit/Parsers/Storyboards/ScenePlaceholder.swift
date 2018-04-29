@@ -18,14 +18,14 @@ extension Storyboards {
 // MARK: - XML
 
 private enum XML {
-  static let sceneIDAttribute = "id"
+  static let idAttribute = "id"
   static let storyboardNameAttribute = "storyboardName"
   static let referencedIdentifierAttribute = "referencedIdentifier"
 }
 
 extension Storyboards.ScenePlaceholder {
   init(with object: Kanna.XMLElement, storyboard: String) {
-    sceneID = object[XML.sceneIDAttribute] ?? ""
+    sceneID = object[XML.idAttribute] ?? ""
     storyboardName = object[XML.storyboardNameAttribute] ?? storyboard
     referencedIdentifier = object[XML.referencedIdentifierAttribute]
   }

@@ -59,6 +59,7 @@
 		DD428E261FC50FBF001649D6 /* StoryboardsContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD428E161FC50FBF001649D6 /* StoryboardsContext.swift */; };
 		DD428E271FC50FBF001649D6 /* StringsContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD428E171FC50FBF001649D6 /* StringsContext.swift */; };
 		DD4738A81FE07596006CB6BB /* StencilContexts in Resources */ = {isa = PBXBuildFile; fileRef = DDDE52761FAF81DB004203BE /* StencilContexts */; };
+		DD59D13A2097AAF2000445E4 /* StoryboardsSwiftType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59D1392097AAF2000445E4 /* StoryboardsSwiftType.swift */; };
 		DD906FA81EE777C600C29B8A /* ParserCLICommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD906FA71EE777C600C29B8A /* ParserCLICommands.swift */; };
 		DD9F687420955D0C004EB720 /* ColorsFileTypeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9F687320955D0B004EB720 /* ColorsFileTypeParser.swift */; };
 		DD9F687A20955D51004EB720 /* CatalogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9F687720955D51004EB720 /* CatalogEntry.swift */; };
@@ -295,6 +296,7 @@
 		DD428E161FC50FBF001649D6 /* StoryboardsContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardsContext.swift; sourceTree = "<group>"; };
 		DD428E171FC50FBF001649D6 /* StringsContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringsContext.swift; sourceTree = "<group>"; };
 		DD428E181FC50FBF001649D6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD59D1392097AAF2000445E4 /* StoryboardsSwiftType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardsSwiftType.swift; sourceTree = "<group>"; };
 		DD906FA71EE777C600C29B8A /* ParserCLICommands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParserCLICommands.swift; sourceTree = "<group>"; };
 		DD9F687320955D0B004EB720 /* ColorsFileTypeParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsFileTypeParser.swift; sourceTree = "<group>"; };
 		DD9F687720955D51004EB720 /* CatalogEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogEntry.swift; sourceTree = "<group>"; };
@@ -687,6 +689,7 @@
 				DDCCACD8209551230017FB43 /* Segue.swift */,
 				DDCCACD6209551230017FB43 /* Storyboard.swift */,
 				DD428E0E1FC50FBF001649D6 /* StoryboardsParser.swift */,
+				DD59D1392097AAF2000445E4 /* StoryboardsSwiftType.swift */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -1369,6 +1372,7 @@
 				DDCCACDD209551240017FB43 /* Scene.swift in Sources */,
 				DDCCACDB209551240017FB43 /* Platform.swift in Sources */,
 				DD428E1D1FC50FBF001649D6 /* ColorsXMLFileParser.swift in Sources */,
+				DD59D13A2097AAF2000445E4 /* StoryboardsSwiftType.swift in Sources */,
 				DDCCACDA209551240017FB43 /* Storyboard.swift in Sources */,
 				DD428E1F1FC50FBF001649D6 /* StoryboardsParser.swift in Sources */,
 				DDCCACDC209551240017FB43 /* Segue.swift in Sources */,
