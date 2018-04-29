@@ -22,6 +22,9 @@
 * Remove Swift 2 support.  
   [David Jennes](https://github.com/djbe) 
   [#420](https://github.com/SwiftGen/SwiftGen/pull/420)
+* Storyboards: split up the template into 2 parts: one for segues and one for scenes.  
+  [David Jennes](https://github.com/djbe) 
+  [#419](https://github.com/SwiftGen/SwiftGen/pull/419)
 
 ### New Features
 
